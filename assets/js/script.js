@@ -1,4 +1,4 @@
-let time = 5000, 
+let time = 1000, 
 cuurrentIndex = 0, 
 images = document.querySelectorAll(".containerProjects img")
 max = images.length;

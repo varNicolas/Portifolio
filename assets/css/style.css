@@ -115,6 +115,7 @@
 }
 #about img {
   height: 70vh;
+  max-width: 90vw;
   display: flex;
   justify-content: space-between;
 }

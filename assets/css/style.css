@@ -51,6 +51,71 @@
 #header #button-contact-me a:hover {
   color: #fff;
 }
+#header .menu-opener{
+  width: 3rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+#header .menu-opener .line-menu{
+  background-color: var(--primary-color);
+  width: 3rem;
+  height: .2rem;
+  display: none;
+}
+#header .menu-opener{
+  width: 3rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+#header .menu-opened{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.658);
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+#header .close-menu{
+  width: 3rem;
+  height: 2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 2.1rem;
+  right: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+#header .close-menu .line-menu1{
+  background-color: var(--primary-color);
+  position: absolute;
+  transform: rotate(-45deg);
+  rotate: 30deg; 
+  height: .2rem;
+  width: 3rem;
+}
+#header .close-menu .line-menu2{
+  background-color: var(--primary-color);
+  transform: rotate(45deg);
+  position: absolute;
+  height: .2rem;
+  width: 3rem;
+}
+#header .menu-opened #list-header-menu{
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
 
 /* ******************* SECTION-HOME ******************* */
 #home {

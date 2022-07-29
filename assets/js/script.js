@@ -20,3 +20,21 @@ setInterval(() => {
 }, time);
 }
 window.addEventListener('load', start);
+
+function showMenu(){
+  document.querySelector('.menu-opener').style.display = 'none'
+  document.querySelector('.menu-opened').style.display = 'flex'
+}
+function closeMenu(){
+  document.querySelector('.menu-opened').style.display = 'none'
+  document.querySelector('.menu-opener').style.display = 'flex'
+}
+
+
+setTimeout(() => {
+  let largura = window.screen.width;
+
+if(largura >= 690){
+  closeMenu();
+}
+}, 10000);

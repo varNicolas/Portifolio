@@ -99,6 +99,9 @@
     height: 32rem;
     width: 57rem;
   }
+  #header .menu-opener .line-menu{
+    display: flex;
+  }
 }
 @media (max-width: 600px) {
   #about .container-about-informations{
